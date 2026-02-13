@@ -1,0 +1,24 @@
+From 98f7cf8655140250c9a6c6d9e14b84480e7a0c5a Mon Sep 17 00:00:00 2001
+From: Dev User <dev@example.com>
+Date: Fri, 13 Feb 2026 17:24:35 -0500
+Subject: [PATCH] Add OpenRewrite config for Java 21 upgrade
+
+---
+ rewrite.yml | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 rewrite.yml
+
+diff --git a/rewrite.yml b/rewrite.yml
+new file mode 100644
+index 0000000..7f6e0ea
+--- /dev/null
++++ b/rewrite.yml
+@@ -0,0 +1,5 @@
++type: specs.openrewrite.org/v1beta/recipe
++name: upgrade-java-21
++displayName: Upgrade to Java 21
++recipeList:
++  - org.openrewrite.java.migrate.UpgradeToJava21
+-- 
+2.53.0.windows.1
+
