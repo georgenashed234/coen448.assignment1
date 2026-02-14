@@ -5,6 +5,7 @@ This repository contains the COEN448 assignment project.
 ## What I changed
 - Cleaned up repository by adding a `.gitignore` and removing tracked IDE/build artifacts.
 - Added an OpenRewrite configuration (`rewrite.yml`) to enable an automated recipe to help migrate code to Java 21 when applicable.
+- updated java upgrade specs
 
 ## Prerequisites
 - Java (JDK) 21 for final runtime target (development used JDK 11 for OpenRewrite application).
